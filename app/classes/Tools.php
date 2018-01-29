@@ -355,6 +355,6 @@ class Tools
      */
     public static function getUrl($Request)
     {
-        return 'https://' . $Request->getHost() . ':' . $Request->getPort() . $Request->getBasePath();
+        return 'https://elab.ccgapps.com.au' . $Request->getBasePath();
     }
 }

@@ -191,7 +191,7 @@ class Email
         // get url
         // FIXME will not properly work if is installed in subfolder
         $Request = Request::createFromGlobals();
-        $url = 'https://' . $Request->getHost() . ':' . $Request->getPort() . '/admin.php';
+        $url = 'https://elab.ccgapps.com.au/admin.php';
 
         // Create the message
         $footer = "\n\n~~~\nSent from eLabFTW https://www.elabftw.net\n";
@@ -230,7 +230,7 @@ class Email
         // now let's get the URL so we can have a nice link in the email
         // FIXME will not properly work if is installed in subfolder
         $Request = Request::createFromGlobals();
-        $url = 'https://' . $Request->getHost() . ':' . $Request->getPort() . '/login.php';
+        $url = 'https://elab.ccgapps.com.au/login.php';
 
         $footer = "\n\n~~~\nSent from eLabFTW https://www.elabftw.net\n";
         // Create the message
